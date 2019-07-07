@@ -1,6 +1,5 @@
 {
-  "skills": [
-    {
+  "skills": [{
       "number": "80",
       "text": "Возраст начала занятий на скрипке"
     },
@@ -17,8 +16,7 @@
       "text": "Лет на сцене в качестве скрипача"
     }
   ],
-  "products": [
-    {
+  "products": [{
       "src": "./assets/img/products/Work1.jpg",
       "name": "Вино вдохновение",
       "price": 600
@@ -69,26 +67,29 @@
       "price": "76"
     }
   ],
-  "messages": [
-    {
+  "messages": [{
       "name": "45",
       "email": "ru@ru.tu",
       "message": "sdf"
     },
     {
       "name": "rt",
-      "email": "1287175@gmail.com",
+      "email": "ru@gmail.com",
       "message": "df"
     },
     {
       "name": "df",
-      "email": "1287175@gmail.com",
+      "email": "ru@gmail.com",
       "message": "df"
     },
     {
       "name": "45",
-      "email": "1287175@gmail.com",
+      "email": "ru@gmail.com",
       "message": "ert"
     }
-  ]
+  ],
+  "users": [{
+    "email": "ru@gmail.com",
+    "password": "df"
+  }]
 }

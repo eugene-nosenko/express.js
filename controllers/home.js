@@ -6,7 +6,7 @@ module.exports.get = function (req, res) {
     products: db.get('products').value(),
     msgsemail: req.query.msgsemail
   };
-  console.log(data);
+  // console.log(data);
 
 
   res.render('pages/index', data)

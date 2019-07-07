@@ -91,7 +91,7 @@ const validation = (fields, files) => {
 
 module.exports.updateSkills = (req, res, next) => {
 
-  console.log(req.body);
+  // console.log(req.body);
 
   if (req.body.age && req.body.concerts && req.body.cities && req.body.years) {
 
@@ -118,36 +118,5 @@ module.exports.updateSkills = (req, res, next) => {
   }
 
   res.redirect('/admin/?msgskill=Заполните все поля');
-  // console.log(product);
-
-  // db.get('skills').push(skills).write();
-
-  // if (!req.body.name || !req.body.email) {
-  //   return res.send('404');
-  // }
-  // return res.send(`User - ${req.body.name} Email: ${req.body.email}`);
-
-  // в поле age - Возраст
-  // в поле concerts - Концертов
-  // в поле cities - Число городов
-  // в поле years - Лет на сцене
-
-  // [ // типа проверка форм
-  //   check('message')
-  //   .isLength({
-  //     min: 1
-  //   })
-  //   .withMessage('Message is required'),
-  //   check('email')
-  //   .isEmail()
-  //   .withMessage('That email doesn‘t look right')
-  // ]
-
-  // const errors = validationResult(req)
-  // res.render('contact', {
-  //   data: req.body,
-  //   errors: errors.mapped()
-  // })
-
 
 }
